@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+       Actor Profile
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+   <button ion-button color="danger" id="Brother" small [navPush]="Message" [navParams]="params">Messages</button>
+   <button ion-button color="danger" id="Sister" small (click)="takePhoto()">Profile Picture</button>
+      <img src="{{base64Image}}" alt="Blank Profile Pic" class="center" height="60" width="80">
+    <p>
+      <input type="text" placeholder="Name:" style="color:black;"/>
+    </p>
+    <p>
+      <input type="text" placeholder="Email:" style="color:black;"/>
+    </p>
+    <p>
+      <input type="text" placeholder="Work #:" style="color:rgb(0, 0, 0);"/>
+    </p>
+    <p>
+      <input type="text" placeholder="Home #:" style="color:black;"/>
+    </p>
+    <p>
+      <input type="text" placeholder="About You:" style="color:black;"/>
+    </p>
+    <p>
+    <button ion-button color="danger" [navPush]="ResumePage" [navParams]="params" class="Types">Resume</button>
+    <button ion-button color="danger" [navPush]="AuditionPage" [navParams]="params" class="Audis">Audition</button>
+   </p>
+  <p>
+    <button ion-button color="danger">Finish</button>
+  </p>
+  </ion-content>

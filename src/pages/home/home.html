@@ -1,16 +1,19 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-     AppActors
+     Home 
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
- This will be an app for actors to find agents to sponsor them.
-  <p>
-    If you get lost, this <a href="http://ionicframework.com/docs/v2">Ionic Guide</a> will be your guide.
-  </p>
-  <input type="text" name="firstname" title="First Name" style="color:#888;" 
-    value="First Name" />
+    <h1 ion-text color="danger" id="poop">STAND OUT!</h1>  
+<p>
+    <img src="{{base64Image}}" alt="Untitled" class="center" width="200px" height="80px">
+</p>
+<h3 ion-text color="danger" id="oppai">Who are you?</h3>
+ <div class="button1">
+  <button id="actorButton" class="selectProfessionButton" ion-button color="danger" round [navPush]="ActorPage" [navParams]="params">Actor</button>
+  <button id="agentButton" class="selectProfessionButton" ion-button color="danger" round >Agent</button>
+</div>
 </ion-content>
