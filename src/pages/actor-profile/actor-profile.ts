@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Camera, CameraOptions } from '@ionic-native/camera';
-import { ResumePage } from '../resume/resume'
-import { AuditionPage } from '../audition/audition';
-import { MessagesPage } from '../messages/messages'
+import { ResumePage } from '../resume/resume';
+import { AuditionPage }from '../audition/audition';
+import { AgentPage } from '../agent/agent'
+
 
 
 
@@ -23,6 +24,8 @@ export class ActorProfilePage {
     ResumePage;
     AuditionPage;
     Message;
+    AgentPage;
+
 
     options: CameraOptions = {
     quality: 100,
@@ -35,8 +38,7 @@ export class ActorProfilePage {
   constructor(public navCtrl: NavController, public navParams: NavParams, private camera: Camera) {
     this.ResumePage = ResumePage;
     this.AuditionPage= AuditionPage;
-    this.Message= MessagesPage;
-    
+    this.AgentPage= AgentPage
   }
 
   ionViewDidLoad() {

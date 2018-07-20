@@ -1,0 +1,44 @@
+<!--
+  Generated template for the AgentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+   <ion-navbar hideBackButton>
+    <ion-title>Agent List</ion-title>
+  </ion-navbar> 
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="http://www.rmeoc.org/wp-content/uploads/2018/01/circular-photo.png">
+      </ion-thumbnail>
+      <h2>Andrea Tea</h2>
+      <p></p>
+      <button ion-button clear item-end [navPush]="View1Page" [navParams]="params">View</button>
+    </ion-item>
+    <ion-item>
+        <ion-thumbnail item-start>
+            <img src="https://www.gravatar.com/avatar/d4f909e9619c6295cc268fe7ae3a2255?s=420" id="Lopez"> 
+          </ion-thumbnail>
+          <h2>Carlos Lopez</h2>
+          <p></p>
+          <button ion-button clear item-end [navPush]="View2Page" [navParams]="params">View</button>
+    </ion-item>
+    <ion-item>
+        <ion-thumbnail item-start>
+            <img src="http://d33wubrfki0l68.cloudfront.net/ro/people/miles-matthias/assets/profile/2761e294f0c9247d65447d7381ba87e0be172328/circular-photo.png" id="Rich">
+          </ion-thumbnail>
+          <h2>Richard Garza</h2>
+          <p></p>
+          <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
+

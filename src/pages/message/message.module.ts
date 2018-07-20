@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { MessagesPage } from './messages';
+import { MessagePage } from './message';
 
 @NgModule({
   declarations: [
-    MessagesPage,
+    MessagePage,
   ],
   imports: [
-    IonicPageModule.forChild(MessagesPage),
+    IonicPageModule.forChild(MessagePage),
   ],
 })
-export class MessagesPageModule {}
+export class MessagePageModule {}

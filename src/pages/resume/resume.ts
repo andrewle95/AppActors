@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { TemplatePage } from '../template/template'
-
+import { ActorProfilePage } from '../actor-profile/actor-profile'
+import { AuditionPage } from '../audition/audition'
 /**
  * Generated class for the ResumePage page.
  *
@@ -16,9 +17,13 @@ import { TemplatePage } from '../template/template'
 })
 export class ResumePage {
   TemplatePage;
+  ActorProfilePage;
+  AuditionPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.TemplatePage= TemplatePage
+    this.ActorProfilePage= ActorProfilePage
+    this.AuditionPage= AuditionPage
   }
 
   ionViewDidLoad() {
