@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SMS } from '@ionic-native/sms';
 
 /**
  * Generated class for the View1Page page.
@@ -15,11 +16,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class View1Page {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private sms:SMS) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad View1Page');
+  }
+
+  sendMessage(){
+    this.sms.send('13106177525', '');
   }
 
 }

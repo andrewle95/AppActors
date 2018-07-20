@@ -16,11 +16,13 @@ import { SMS } from '@ionic-native/sms';
 })
 export class MessagePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public sms: SMS) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MessagePage');
+}
+  sendMessage(){
+    this.sms.send('12133009188', 'Hello agent my name is ');
   }
-
 }

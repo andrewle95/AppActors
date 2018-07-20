@@ -65,6 +65,7 @@ import { View2Page } from '../pages/view2/view2'
     StatusBar,
     SplashScreen,
     Camera,
+    SMS,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
