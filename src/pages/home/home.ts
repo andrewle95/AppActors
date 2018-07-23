@@ -12,7 +12,7 @@ export class HomePage {
   pushPage;
   ActorPage;
   ResumePage;
-  base64Image = "../../assets/imgs/AppActorsLogo.png";
+  base64Image = "../../assets/imgs/BrothersLOGO.png";
   constructor(public navCtrl: NavController) {
     this.pushPage= HomePage;
     this.ResumePage= ResumePage;
