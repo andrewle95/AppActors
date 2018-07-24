@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { View1Page } from '../view1/view1'
-import { View2Page } from '../view2/view2'
+import { ActorProfilePage } from '../actor-profile/actor-profile'
+
 /**
  * Generated class for the AgentPage page.
  *
@@ -16,11 +17,12 @@ import { View2Page } from '../view2/view2'
 })
 export class AgentPage {
   View1Page;
-  View2Page
+  View2Page;
+  ActorProfilePage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.View1Page= View1Page
-    this.View2Page= View2Page
+    this.ActorProfilePage= ActorProfilePage
   }
 
 

@@ -27,8 +27,9 @@ ion-header ion-icon.back-button-icon.icon {
     display: block;
     height: 40px;
     width: 170px;
-    margin: auto;
+    margin-left: 105px;
     background-color: #ED1C24;
+    margin-bottom: 13px;
 
 }
 #agentBtn{
@@ -37,4 +38,11 @@ ion-header ion-icon.back-button-icon.icon {
     width: 135px;
     margin:auto;
     background-color: #ED1C24;
+}
+#ActorPic{
+    background-color: #ED1C24;
+    display: block;
+    height: 40px;
+    width: 170px;
+    margin: auto;
 }
