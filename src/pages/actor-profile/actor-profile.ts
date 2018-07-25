@@ -34,7 +34,7 @@ export class ActorProfilePage {
     mediaType: this.camera.MediaType.PICTURE
 
   }
-  base64Image = "../../assets/imgs/blank-profile-circle.png";
+  base64Image = "../assets/imgs/blank-profile-circle.png";
   constructor(public navCtrl: NavController, public navParams: NavParams, private camera: Camera) {
     this.ResumePage = ResumePage;
     this.AuditionPage= AuditionPage;

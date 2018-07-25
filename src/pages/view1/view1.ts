@@ -14,8 +14,9 @@ import { SMS } from '@ionic-native/sms';
   selector: 'page-view1',
   templateUrl: 'view1.html',
 })
-export class View1Page {
 
+export class View1Page {
+  base64Image = "../../assets/imgs/Android-Messages.png";
   constructor(public navCtrl: NavController, public navParams: NavParams, private sms:SMS) {
   }
 

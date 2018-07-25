@@ -9,7 +9,7 @@ page-view1 {
     z-index: -1;
 }
 .toolbar-background{
-    background-color: #ED1C24;
+    background-color: #ED1C24; 
     color: white !important;
 }
 .toolbar-title{
@@ -23,13 +23,14 @@ ion-header ion-icon.back-button-icon.icon {
 .back-button{ 
     color: white !important;
 }
-#contact{
+.contact{
     display: block;
-    height: 40px;
-    width: 170px;
-    margin-left: 105px;
-    background-color: #ED1C24;
+    height: 5px;
+    width: 5px;
+    margin-left: 225px;
     margin-bottom: 13px;
+    border: #FFF;
+    background-color: white;
 
 }
 #agentBtn{
