@@ -1,5 +1,7 @@
 <ion-content padding>
 
-  <button id="imgBtn"><img id="logo" src="{{base64Image}}" alt="AppActors" [navPush]="ActorProfilePage" [navParams]="params"></button>
-  
+  <button id="imgBtn">
+    <img id="logo" src="{{base64Image}}" alt="AppActors" (click)="navigate()">
+  </button>
+
 </ion-content>

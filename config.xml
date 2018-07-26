@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>newProject</name>
+<widget id="standOut.io" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Stand Out</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
@@ -85,5 +85,7 @@
     <plugin name="cordova-sms-plugin" spec="^0.1.11" />
     <allow-navigation href="http://192.168.2.1:8101" />
     <plugin name="cordova-plugin-media-capture" spec="^3.0.2" />
+    <allow-navigation href="http://169.254.31.40:8102" />
     <engine name="ios" spec="4.5.4" />
+    <allow-navigation href="http://10.27.12.142:8102" />
 </widget>

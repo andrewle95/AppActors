@@ -47,3 +47,69 @@ ion-header ion-icon.back-button-icon.icon {
     width: 170px;
     margin: auto;
 }
+#Mail{
+    display: inline-block;
+    background-color: #ED1C24;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-left: 150px;
+}
+#DM{
+background-color: white;
+border: white;
+height: 60px;
+width: 50px;
+}
+#Phone{
+background-color: white;
+border: white;
+height: 60px;
+width: 50px;
+}
+
+#email{
+    display: inline;
+}
+
+.item{
+    border-bottom:  0.55px solid #c8c7cc;
+    border-top: none !important;
+}
+
+.item-inner{
+    border: none !important;
+}
+
+.icon1{
+    display: inline-block !important;
+    background-color: #ED1C24;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-left: 150px;
+
+}
+
+.icon2{
+    display: inline-block !important;
+    background-color: #ED1C24;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-left: 10px;
+
+}
+
+.inline{
+    display: inline-block;
+}

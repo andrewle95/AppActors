@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SMS } from '@ionic-native/sms';
+import { View2Page } from '../view2/view2';
 
 /**
  * Generated class for the View1Page page.
@@ -24,8 +25,11 @@ export class View1Page {
     console.log('ionViewDidLoad View1Page');
   }
 
-  sendMessage(){
+  sendSMS(){
     this.sms.send('13106177525', '');
   }
 
+  viewResume(){
+    this.navCtrl.push(View2Page);
+  }
 }
