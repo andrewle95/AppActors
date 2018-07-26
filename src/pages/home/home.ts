@@ -10,13 +10,13 @@ import { ActorProfilePage } from '../actor-profile/actor-profile';
 export class HomePage {
 
   pushPage;
-  ActorPage;
+  ActorProfilePage;
   ResumePage;
-  base64Image = "../assets/imgs/BrothersLOGO.png";
+  base64Image = "../../assets/imgs/BrothersLOGO.png";
   constructor(public navCtrl: NavController) {
     this.pushPage= HomePage;
     this.ResumePage= ResumePage;
-    this.ActorPage= ActorProfilePage;
+    this.ActorProfilePage= ActorProfilePage;
   }
 
 }

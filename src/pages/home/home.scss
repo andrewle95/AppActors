@@ -2,69 +2,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40;
-    height: 60;
+    width: 200px;
+    height: 205px;
+    margin-bottom: 50px;
 }
-//actor
-.button1{
-    display: block;
-    width: 175px;
-    height: 75px;
-    margin: auto;
-    font-size: 26px;
-    border-radius: 5px;
-    background-color: #ED1C24;
-    margin-top: 75px;
-}
-
-.selectProfessionButton{
-
-    display: inline-block;
-}
-
-#actorButton{
-    float: left;
-}
-
-#agentButton{
-    float: right;
-}
-
-#Stand{
-    text-align: center;
-}
-#You{
-    text-align: center;
-}
-#Actor{
-    margin-left: 5em;
-}
-
-.logo-container{
-    height: 90px;
-    width: 100%;
-    background-color: #ED1C24;
-}
-
-ion-content{
-    padding: 0 !important;
-}
-
-.scroll-content{
-    padding: 0 !important;
-}
-
-.bottom-container{
-    height: 100px;
-    width: 100%;
-    background-color: #ED1C24;
-    padding: 0 !important;
-    margin-top: 200px;
-}
-.ActorPic{
-    display: block;
-    height: 200px;
-    width: 222px;
-    margin: auto;
-    margin-top: 35px;
+#imgBtn{
+    border: white;
+    background-color: white;
 }
