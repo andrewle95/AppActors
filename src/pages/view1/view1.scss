@@ -2,7 +2,7 @@ page-view1 {
 
 #TE{
     display: block;
-    margin-left: 11em;
+    margin-left: 9.75em;
 }
 
 .list{
@@ -55,8 +55,7 @@ ion-header ion-icon.back-button-icon.icon {
     border-radius: 50%;
     color: white;
     text-align: center;
-    padding: 0;
-    margin-left: 150px;
+    padding: 0px;
 }
 #DM{
 background-color: white;
@@ -93,7 +92,7 @@ width: 50px;
     color: white;
     text-align: center;
     padding: 0;
-    margin-left: 150px;
+    margin-left: 38%;
 
 }
 
@@ -106,10 +105,11 @@ width: 50px;
     color: white;
     text-align: center;
     padding: 0;
-    margin-left: 10px;
-
 }
 
 .inline{
     display: inline-block;
+}
+.list list-ios{
+    margin: 10% 0;
 }

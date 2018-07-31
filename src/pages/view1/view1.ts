@@ -26,7 +26,7 @@ export class View1Page {
   }
 
   sendSMS(){
-    this.sms.send('13106177525', '');
+    this.sms.send('+1-213-139-8945', '');
   }
 
   viewResume(){
