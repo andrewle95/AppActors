@@ -2,9 +2,14 @@ page-view1 {
 
 #TE{
     display: block;
+<<<<<<< HEAD
     // margin-left: 9.75em;
     margin-left: auto;
     margin-right:auto;
+=======
+    margin-left: 9.75em;
+    border-radius: 50%;
+>>>>>>> upstream/master
 }
 
 .list{
@@ -64,6 +69,7 @@ ion-header ion-icon.back-button-icon.icon {
     color: white;
     text-align: center;
     padding: 0px;
+    margin-left: 15px;
 }
 #DM{
 background-color: white;
@@ -112,6 +118,7 @@ width: 50px;
     color: white;
     text-align: center;
     padding: 0;
+    margin-left: 15px;
 }
 
 .inline{
